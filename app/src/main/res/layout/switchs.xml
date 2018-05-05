@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Switch
+        android:id="@+id/fragment_switch01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_switch01_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/fragment_switch02"/>
+
+    <Switch
+        android:id="@+id/fragment_switch02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_switch02_text"
+        app:layout_constraintLeft_toRightOf="@id/fragment_switch01"
+        app:layout_constraintRight_toLeftOf="@id/fragment_switch03"/>
+
+    <Switch
+        android:id="@+id/fragment_switch03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_switch03_text"
+        app:layout_constraintLeft_toRightOf="@id/fragment_switch02"
+        app:layout_constraintRight_toLeftOf="@id/fragment_switch04"/>
+    <Switch
+        android:id="@+id/fragment_switch04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_switch04_text"
+        app:layout_constraintLeft_toRightOf="@id/fragment_switch03"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

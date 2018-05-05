@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.team.e_works.fragmenttest.RootActivity">
+
+    <Button
+        android:id="@+id/root2test01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_button01"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/root2test02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_button02"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/root2test01"/>
+
+    <Button
+        android:id="@+id/root2Test03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_button03"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/root2test02"/>
+
+    <Button
+        android:id="@+id/root2test04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_button04"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/root2Test03"/>
+
+    <Button
+        android:id="@+id/root2test05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_button05"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/root2test04"/>
+
+    <Button
+        android:id="@+id/root2test06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_button06"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/root2test05"/>
+
+</android.support.constraint.ConstraintLayout>

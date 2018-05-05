@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.team.e_works.fragmenttest.FragmentTest03Activity">
+
+    <CheckBox
+        android:id="@+id/fragment_test03_isClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/check_is_clear"/>
+
+    <include
+        android:id="@+id/fragment_test03_switchs"
+        layout="@layout/switchs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_test03_isClear" />
+
+    <RelativeLayout
+        android:id="@+id/Fragment_test03_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fragment_test03_switchs">
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

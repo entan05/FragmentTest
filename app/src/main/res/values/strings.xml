@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FragmentTest</string>
+
+    <string name="fragment_switch01_text">Frag01</string>
+    <string name="fragment_switch02_text">Frag02</string>
+    <string name="fragment_switch03_text">Frag03</string>
+    <string name="fragment_switch04_text">Frag04</string>
+
+    <string name="check_is_clear">is clear?</string>
+
+    <string name="root_button01">Single ViewGroup &amp; Single Fragment</string>
+    <string name="root_button02">Different and Don\'t overlap ViewGroup &amp; Multi Fragment</string>
+    <string name="root_button03">Single ViewGroup &amp; Multi Fragment</string>
+    <string name="root_button04">Different and Overlap ViewGroup &amp; Multi Fragment</string>
+    <string name="root_button05">Parent-Child ViewGroup &amp; Multi Fragment</string>
+    <string name="root_button06">Animation</string>
+</resources>
